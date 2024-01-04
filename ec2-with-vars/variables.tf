@@ -11,7 +11,7 @@ variable "instance_type" {
 variable "tags" {
     type = map
     default = {
-        Name = "TerraForm-Name"
+        Name = "ec2-from-terraform"
         Project = "Roboshop"
         Environment = "Dev"
         Component = "Web"
